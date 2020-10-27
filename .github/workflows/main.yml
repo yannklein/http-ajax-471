@@ -26,7 +26,7 @@ jobs:
           yarn install
           yarn build
           echo 'Build finished! 💪'
-          echo $(date) > timestamp.txt
+          echo $(date) > ./dist/timestamp.txt
           echo 'Build Timestamp added'
           git config --global user.email "yann.klein@me.com"
           git config --global user.name "Yann Klein"
