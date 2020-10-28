@@ -12,6 +12,7 @@
 //   event.currentTarget.innerText = "Loading...";
 // });
 
+
 // //////////////////////
 // HTTP GET request
 // //////////////////////
@@ -52,6 +53,7 @@ button.addEventListener("click", (event) => {
   fetchMovies(input.value);
 });
 
+
 // //////////////////////
 // HTTP POST request
 // //////////////////////
@@ -69,11 +71,3 @@ const searchAlgoliaPlaces = (event) => {
 
 const search = document.querySelector("#search");
 search.addEventListener("keyup", searchAlgoliaPlaces);
-
-
-
-
-
-
-
-
