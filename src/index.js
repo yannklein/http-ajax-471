@@ -35,7 +35,7 @@ const displayMovies = (movies) => {
 };
 
 const fetchMovies = (keyword) => {
-  const url = `http://www.omdbapi.com/?s=${keyword}&apikey=adf1f2d7`;
+  const url = `https://www.omdbapi.com/?s=${keyword}&apikey=adf1f2d7`;
   fetch(url)
     .then(response => response.json())
     .then((data) => {
